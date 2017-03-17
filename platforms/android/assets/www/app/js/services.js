@@ -40,19 +40,19 @@ app.factory('userAPI', function ($http) {
 });
 app.factory('addressesAPI', function ($http) {
     var _post = function (data) {
-        return $http.post('http://localhost:3000/addresses', data);
+        return $http.post('http://localhost:3000/users/addresses', data);
     };
     var _get = function (id) {
         return $http.get('http://localhost:3000/addresses/' + id);
     };
     var _delete = function (id) {
-        return $http.delete('http://localhost:3000/addresses/' + id);
+        return $http.delete('http://localhost:3000/user/addresses/' + id);
     };
     var _getUser = function (id) {
         return $http.get('http://localhost:3000/users/addresses/' + id);
     };
     var _put = function (data) {
-        return $http.put('http://localhost:3000/addresses', data);
+        return $http.put('http://localhost:3000/users/addresses', data);
     };
     return {
         post: _post,

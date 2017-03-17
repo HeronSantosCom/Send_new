@@ -5,3 +5,15 @@
 		<a href="#!/" class="btn waves-effect waves-light full-width btn-padding">Contratar minha primeira entrega</a>
 	</div>
 </div>
+<div class="container full-width" ng-show="user.travels.length">
+	<ul id="addresses" class="collection">
+		<li class="collection-item avatar item-repeated" ng-repeat="travels in user.travels">
+			<i class="material-icons circle">location_on</i>
+			<span class="title">{{travels.title}}</span>
+			<p class="address-description"><strong>Destino:</strong> {{travels.destination}}</p>
+		</li>
+	</ul>
+</div>
+<div class="fixed-action-btn">
+	<a href="#!/" class="btn btn-floating btn-large waves-effect"><i class="material-icons">add</i></a>
+</div>

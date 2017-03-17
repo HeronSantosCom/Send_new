@@ -17,8 +17,8 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
     NgMap.getMap().then(function (map) {
         $scope.map = map;
     });
-    $scope.confirmTravel = function (origin, destination) {
-        mapsAPI.postTravel({origin: origin, destination: destination, id: $scope.user._id}).then(function success (travel) {
+    $scope.confirmTravel = function (title,origin, destination) {
+        mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id,notification:null,orderOld:false}).then(function success (travel) {
             $rootScope.user.travels.push(travel.data);
             $scope.storage.setItem('user', JSON.stringify($scope.user));
             $('#loading-modal').modal('open');

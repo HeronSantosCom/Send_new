@@ -101,6 +101,11 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
             Materialize.toast('Endereço removido.', 2000);
         });
     };
+    $scope.getAddress = function (id) {
+        addressesAPI.get(id).then(function success(addresses) {
+            $rootScope.user.addresses = addresses.data;
+        })
+    }
     $scope.deliveryMan = function(termos,licenseplate){
         userAPI.putLicenseplate({licenseplate:licenseplate,id:$scope.user._id}).then(function success(user){
             userAPI.putAccount({deliveryman:termos,id:$scope.user._id}).then(function success(user) {
