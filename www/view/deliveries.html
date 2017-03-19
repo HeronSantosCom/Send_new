@@ -1,0 +1,20 @@
+<div class="container" ng-hide="user.deliveries.length">
+    <div class="message-cover">
+        <i class="material-icons center-align center-block">sentiment_dissatisfied</i>
+        <h5 class="center-align">Você ainda não contratou uma entrega</h5>
+        <a href="#!/" class="btn waves-effect waves-light full-width btn-padding">Contratar minha primeira entrega</a>
+    </div>
+</div>
+<div class="container full-width" ng-show="user.deliveries.length">
+    <ul id="addresses" class="collection">
+        <li class="collection-item avatar item-repeated" ng-repeat="delivery in user.deliveries">
+            <i class="material-icons circle">location_on</i>
+            <span class="title">{{delivery.title}}</span>
+            <p class="address-description"><strong>Destino:</strong> {{delivery.origin}}</p>
+            <p class="address-description"><strong>Destino:</strong> {{delivery.destination}}</p>
+        </li>
+    </ul>
+</div>
+<div class="fixed-action-btn">
+    <a href="#!/" class="btn btn-floating btn-large waves-effect"><i class="material-icons">add</i></a>
+</div>

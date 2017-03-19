@@ -38,7 +38,7 @@
 	</script>
 </head>
 <body>
-	<ul id="side-menu" class="side-nav" ng-show="storage.getItem('user')" ng-controller="navCtrl">
+	<ul id="side-menu" class="side-nav" ng-show="storage.getItem('logged')" ng-controller="navCtrl">
 		<li>
 			<div class="userView">
 				<div class="background">
@@ -51,11 +51,12 @@
 		</li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/map.html'}"><a href="#!" class="waves-effect"><i class="material-icons">map</i> Mapa</a></li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/addresses.html'}"><a href="#!/addresses" class="waves-effect"><i class="material-icons">home</i> Meus destinos de entrega</a></li>
-		<li ng-class="{'active': route.current.templateUrl === 'view/travels.html'}"><a href="#!/travels" class="waves-effect"><i class="material-icons">directions_car</i> Minhas Orderns</a></li>
+		<li ng-class="{'active': route.current.templateUrl === 'view/travels.html'}"><a href="#!/travels" class="waves-effect"><i class="material-icons">send</i> Minhas Orderns</a></li>
+		<li ng-if="storage.getItem('deliveryman')" ng-class="{'active': route.current.templateUrl === 'view/deliveries.html'}"><a href="#!/deliveries" class="waves-effect"><i class="material-icons">local_shippings</i> Minhas Entregas</a></li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/settings.html'}"><a href="#!/settings" class="waves-effect"><i class="material-icons">settings</i> Configurações</a></li>
 		<li><a href="" ng-click="logout()" class="waves-effect"><i class="material-icons">exit_to_app</i> Sair</a></li>
 	</ul>
-	<nav ng-show="storage.getItem('user')" ng-cloak ng-controller="navCtrl">
+	<nav ng-show="storage.getItem('logged')" ng-cloak ng-controller="navCtrl">
 		<div class="nav-wrapper">
 			<button ng-hide="route.current.returnEnabled" data-activates="side-menu" class="btn-icon waves-effect"><i class="material-icons">menu</i></button>
 			<button ng-show="route.current.returnEnabled" ng-click="goBack()" class="btn-icon waves-effect"><i class="material-icons">arrow_back</i></button>

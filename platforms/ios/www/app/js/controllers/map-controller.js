@@ -20,7 +20,7 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
     $scope.confirmTravel = function (title,origin, destination) {
         mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id,notification:null,orderOld:false}).then(function success (travel) {
             $rootScope.user.travels.push(travel.data);
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             $('#loading-modal').modal('open');
             Materialize.toast('Requisitando o entregador mais próximo.', 2000);
         });

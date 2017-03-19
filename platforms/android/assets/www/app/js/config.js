@@ -4,7 +4,7 @@ app.config(function ($routeProvider) {
 		controller: 'mapCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -13,7 +13,7 @@ app.config(function ($routeProvider) {
 		controller: 'signCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if ($rootScope.storage.getItem('user')) $location.path('/');
+				if ($rootScope.storage.getItem('logged')) $location.path('/');
 			}
 		}
 	});
@@ -22,7 +22,7 @@ app.config(function ($routeProvider) {
 		controller: 'signCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if ($rootScope.storage.getItem('user')) $location.path('/');
+				if ($rootScope.storage.getItem('logged')) $location.path('/');
 			}
 		}
 	});
@@ -31,7 +31,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -40,7 +40,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -49,7 +49,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -58,7 +58,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -68,7 +68,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -78,7 +78,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -88,7 +88,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			},
 			photo: function ($rootScope, $location) {
 				if (!$rootScope.profilePhoto) $location.path('/user');
@@ -101,7 +101,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -111,7 +111,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -121,7 +121,7 @@ app.config(function ($routeProvider) {
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -130,7 +130,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -139,7 +139,7 @@ app.config(function ($routeProvider) {
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('user')) $location.path('/login');
+				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -148,7 +148,7 @@ app.config(function ($routeProvider) {
         controller:'configCtrl',
         resolve:{
             session: function ($rootScope, $location){
-                if (!$rootScope.storage.getItem('user')) $location.path('/login');
+                if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 
             }
         }

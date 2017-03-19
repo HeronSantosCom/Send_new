@@ -13,7 +13,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
     };
     $scope.updateConfig = function (item, value) {
         $rootScope.user.config[item] = value;
-        $scope.storage.setItem('user', JSON.stringify($scope.user));
+        $scope.storage.setItem('logged', JSON.stringify($scope.user));
     };
     $scope.deleteAccount = function (phone, password) {
         userAPI.delete({id: $scope.user._id, phone: phone, password: password}).then(function success (err) {
@@ -21,7 +21,9 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
                 Materialize.toast('Número de telefone ou senha estão incorretos.', 2000);
             } else {
                 $rootScope.user = null;
+                $scope.storage.removeItem('logged');
                 $scope.storage.removeItem('user');
+                $scope.storage.removeItem('deliveryman');
                 $location.path('/login');
             };
         });
@@ -32,7 +34,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
                 Materialize.toast('Senha inserida está incorreta.', 2000);
             } else {
                 $rootScope.user.password = user.data.password;
-                $scope.storage.setItem('user', JSON.stringify($scope.user));
+                $scope.storage.setItem('logged', JSON.stringify($scope.user));
                 Materialize.toast('Senha atualizada com sucesso.', 2000);
                 $location.path('/user');
             };
@@ -49,7 +51,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
         $('#loading-modal').modal('open');
         userAPI.putPhoto({id: $scope.user._id, photo: photo}).then(function success (user) {
             $rootScope.user.photo = user.data.photo;
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             Materialize.toast('Foto atualizada com sucesso.', 2000);
             $('#loading-modal').modal('close');
             $location.path('/user');
@@ -72,14 +74,14 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
     $scope.updateName = function (name) {
         userAPI.putName({name: name, id: $scope.user._id}).then(function success (user) {
             $rootScope.user.name = user.data.name;
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             Materialize.toast('Nome atualizado com sucesso.', 2000);
         });
     };
     $scope.updateAddress = function (name, address, id) {
         addressesAPI.put({name: name, address: address, id: id, userId: $scope.user._id}).then(function success (addresses) {
             $rootScope.user.addresses = addresses.data;
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             Materialize.toast('Endereço alterado.', 2000);
             $location.path('/addresses');
         });
@@ -87,7 +89,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
     $scope.postAddress = function (name, address, dontRedirect) {
         addressesAPI.post({name: name, address: address, id: $scope.user._id}).then(function success (address) {
             $rootScope.user.addresses.push(address.data);
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             Materialize.toast('Endereço adicionado.', 2000);
             if (!dontRedirect) {
                 $location.path('/addresses');
@@ -97,7 +99,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
     $scope.deleteAddress = function (id) {
         addressesAPI.delete(id).then(function success (addresses) {
             $rootScope.user.addresses = addresses.data;
-            $scope.storage.setItem('user', JSON.stringify($scope.user));
+            $scope.storage.setItem('logged', JSON.stringify($scope.user));
             Materialize.toast('Endereço removido.', 2000);
         });
     };
@@ -110,7 +112,7 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
         userAPI.putLicenseplate({licenseplate:licenseplate,id:$scope.user._id}).then(function success(user){
             userAPI.putAccount({deliveryman:termos,id:$scope.user._id}).then(function success(user) {
                 $rootScope.user = user.data;
-                $scope.storage.setItem('user', JSON.stringify($scope.user));
+                $scope.storage.setItem('logged', JSON.stringify($scope.user));
                 Materialize.toast('Você é um entregador!.', 2000);
             })
         })

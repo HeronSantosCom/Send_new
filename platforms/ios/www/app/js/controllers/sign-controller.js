@@ -13,7 +13,9 @@ app.controller('signCtrl', function ($rootScope, $scope, userAPI, $location, add
                     $rootScope.user.addresses = addresses.data;
                     mapsAPI.getTravels(user.data._id).then(function success (travels) {
                         $rootScope.user.travels = travels.data;
-                        $scope.storage.setItem('user', JSON.stringify(user.data));
+                        $scope.storage.setItem('logged', JSON.stringify(user.data));
+                        if(user.data.deliveryman===true)$scope.storage.setItem('deliveryman', JSON.stringify(user.data));
+                        else $scope.storage.setItem('user', JSON.stringify(user.data));
                         $location.path('/');
                     });
                 });
@@ -34,6 +36,7 @@ app.controller('signCtrl', function ($rootScope, $scope, userAPI, $location, add
                         $rootScope.user.addresses = [];
                         $rootScope.user.travels = [];
                         $scope.storage.setItem('user', JSON.stringify(user.data));
+                        $scope.storage.setItem('logged', JSON.stringify(user.data));
                         $location.path('/first-config');
                     });
                 };
