@@ -18,10 +18,10 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
         $scope.map = map;
     });
     $scope.confirmTravel = function (title,origin, destination) {
-        mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id,notification:null,orderOld:false}).then(function success (travel) {
+        mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id, notification: null, deliverymanId: '58d7448b3388c105b67e20a4',status:'open'}).then(function success (travel) {
             $rootScope.user.travels.push(travel.data);
-            $scope.storage.setItem('logged', JSON.stringify($scope.user));
-            $('#loading-modal').modal('open');
+            if ($rootScope.user.deliveryman==true) $scope.storage.setItem('deliveryman', JSON.stringify($scope.user));
+            else $scope.storage.setItem('user', JSON.stringify($scope.user));
             Materialize.toast('Requisitando o entregador mais próximo.', 2000);
         });
     };

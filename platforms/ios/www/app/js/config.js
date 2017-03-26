@@ -149,7 +149,15 @@ app.config(function ($routeProvider) {
         resolve:{
             session: function ($rootScope, $location){
                 if (!$rootScope.storage.getItem('logged')) $location.path('/login');
-
+            }
+        }
+    });
+    $routeProvider.when('/deliveries',{
+        templateUrl:'view/deliveries.html',
+        controller:'deliveryManCtrl',
+        resolve:{
+            session: function ($rootScope, $location){
+                if (!$rootScope.storage.getItem('deliveryman')) $location.path('/login');
             }
         }
     });

@@ -7,10 +7,12 @@
 </div>
 <div class="container full-width" ng-show="user.travels.length">
 	<ul id="addresses" class="collection">
-		<li class="collection-item avatar item-repeated" ng-repeat="travels in user.travels">
+		<li class="collection-item avatar item-repeated" ng-repeat="travel in user.travels">
 			<i class="material-icons circle">location_on</i>
-			<span class="title">{{travels.title}}</span>
-			<p class="address-description"><strong>Destino:</strong> {{travels.destination}}</p>
+			<span class="title">{{travel.title}}</span>
+			<p class="address-description"><strong>Origem: </strong> {{travel.origin}}</p>
+			<p class="address-description"><strong>Destino: </strong> {{travel.destination}}</p>
+			<span ng-if="delivery.status==='open'" class="new badge">Aberto</span>
 		</li>
 	</ul>
 </div>

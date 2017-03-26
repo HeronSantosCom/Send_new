@@ -27,6 +27,7 @@
 	<script type="text/javascript" src="app/js/controllers/config-controller.js"></script>
 	<script type="text/javascript" src="app/js/controllers/map-controller.js"></script>
 	<script type="text/javascript" src="app/js/controllers/nav-controller.js"></script>
+	<script type="text/javascript" src="app/js/controllers/dMan-controller.js"></script>
 	<script type="text/javascript" src="app/js/services.js"></script>
 	<script type="text/javascript" src="app/js/config.js"></script>
 	<script type="text/javascript" src="app/js/interceptors.js"></script>
@@ -51,7 +52,7 @@
 		</li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/map.html'}"><a href="#!" class="waves-effect"><i class="material-icons">map</i> Mapa</a></li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/addresses.html'}"><a href="#!/addresses" class="waves-effect"><i class="material-icons">home</i> Meus destinos de entrega</a></li>
-		<li ng-class="{'active': route.current.templateUrl === 'view/travels.html'}"><a href="#!/travels" class="waves-effect"><i class="material-icons">send</i> Minhas Orderns</a></li>
+		<li ng-class="{'active': route.current.templateUrl === 'view/travels.html'}"><a href="#!/travels" class="waves-effect"><i class="material-icons">send</i> Meus Pedidos</a></li>
 		<li ng-if="storage.getItem('deliveryman')" ng-class="{'active': route.current.templateUrl === 'view/deliveries.html'}"><a href="#!/deliveries" class="waves-effect"><i class="material-icons">local_shippings</i> Minhas Entregas</a></li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/settings.html'}"><a href="#!/settings" class="waves-effect"><i class="material-icons">settings</i> Configurações</a></li>
 		<li><a href="" ng-click="logout()" class="waves-effect"><i class="material-icons">exit_to_app</i> Sair</a></li>
