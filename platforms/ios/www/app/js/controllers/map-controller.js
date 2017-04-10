@@ -18,7 +18,7 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
         $scope.map = map;
     });
     $scope.confirmTravel = function (title,origin, destination) {
-        mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id, notification: null, deliverymanId: '58d7448b3388c105b67e20a4',status:'open'}).then(function success (travel) {
+        mapsAPI.postTravel({title: title, origin: origin, destination: destination, id: $scope.user._id, notification: null, deliverymanId: '58e2e9b5f33e1a0d74bff1ad',status:'open'}).then(function success (travel) {
             $rootScope.user.travels.push(travel.data);
             if ($rootScope.user.deliveryman==true) $scope.storage.setItem('deliveryman', JSON.stringify($scope.user));
             else $scope.storage.setItem('user', JSON.stringify($scope.user));
@@ -32,4 +32,14 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
             Materialize.toast('Impossível obter sua localização.', 2000);
         });
     };
+    $scope.cancelTravel = function (id) {
+        mapsAPI.cancelTravel({id:id, status:'canceled'}).then(function success (travel) {
+            $rootScope.user.deliveries.status = delivery.data.status;
+        })
+    };
+    $scope.finishedTravel = function (id) {
+        mapsAPI.finishedTravel({id:id, status:'finished'}).then(function success (travel) {
+            $rootScope.user.deliveries.status = delivery.data.status;
+        })
+    }
 });

@@ -2,388 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8ab227-ae92-4d79-bab5-2c9f26894a94" name="Default" comment="Criação de controller para deliveryman, criação de api para confirmar pedido de entrega e criação de view para entregas">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/.nvmrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/.nvmrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/ngmap/.nvmrc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-hdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-ldpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-mdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-xhdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/config.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/css/app.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/config-controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/config-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/dMan-controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/dMan-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/map-controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/sign-controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/controllers/sign-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/modules.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/modules.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/app/js/services.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/app/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.min.js.map" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/angular-aria.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-aria/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.min.js.map" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/angular-messages.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-messages/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/angular-route.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/materialize/dist/js/materialize.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/materialize/dist/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/.bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/.travis.yml" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/README.md" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/bower.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/Attr2MapOptions.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/Attr2MapOptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/GeoCoder.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/GeoCoder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NavigatorGeolocation.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NavigatorGeolocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NgMap.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NgMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NgMapPool.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/NgMapPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/StreetView.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/StreetView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/bicycling-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/bicycling-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/custom-control.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/custom-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/directions.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/drawing-manager.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/drawing-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/dynamic-maps-engine-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/dynamic-maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/fusion-tables-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/fusion-tables-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/heatmap-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/heatmap-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/info-window.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/info-window.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/kml-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/kml-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-data.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-lazy-load.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-lazy-load.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-type.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/maps-engine-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/marker.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/ngMap.ng-map.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/ngMap.ng-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/ngmap.custom-marker.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/ngmap.custom-marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/overlay-map-type.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/overlay-map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/places-auto-complete.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/places-auto-complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/shape.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/Attr2MapOptions.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/Attr2MapOptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/GeoCoder.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/GeoCoder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NavigatorGeolocation.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NavigatorGeolocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NgMap.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NgMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NgMapPool.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/NgMapPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/StreetView.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/StreetView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/bicycling-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/bicycling-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/custom-control.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/custom-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/directions.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/drawing-manager.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/drawing-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/dynamic-maps-engine-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/dynamic-maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/fusion-tables-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/fusion-tables-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/heatmap-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/heatmap-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/info-window.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/info-window.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/kml-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/kml-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-data.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-lazy-load.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-lazy-load.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-type.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/maps-engine-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/marker.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/ngMap.ng-map.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/ngMap.ng-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/ngmap.custom-marker.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/ngmap.custom-marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/overlay-map-type.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/overlay-map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/places-auto-complete.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/places-auto-complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/shape.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/streetview-panorama.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/streetview-panorama.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/traffic-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/traffic-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/transit-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/source/transit-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/streetview-panorama.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/streetview-panorama.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/traffic-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/traffic-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/transit-layer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/docs/transit-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.debug.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/build/scripts/ng-map.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/controllers/map-controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/bicycling-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/bicycling-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/custom-control.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/custom-control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/custom-marker.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/custom-marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/drawing-manager.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/drawing-manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/fusion-tables-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/fusion-tables-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/heatmap-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/heatmap-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/info-window.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/info-window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/kml-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/kml-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map-data.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map-lazy-load.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map-lazy-load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/marker.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/overlay-map-type.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/overlay-map-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/places-auto-complete.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/places-auto-complete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/shape.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/shape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/street-view-panorama.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/street-view-panorama.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/traffic-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/traffic-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/transit-layer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/directives/transit-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/filters/jsonize.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/filters/jsonize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/gulpfile.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/package.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/package.json" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/attr2-map-options.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/attr2-map-options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/ng-map-pool.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/ng-map-pool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/ng-map.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/services/ng-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/spec/lib/markerclusterer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/spec/lib/markerclusterer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/spec/services/attr2_options_spec.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/spec/services/attr2_options_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/custom-marker-2.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/custom-marker-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/directions.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/map_with_current_position.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/map_with_current_position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker-clusterer.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker-clusterer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker-remove.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker-remove.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/script-tags-for-development.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/script-tags-for-development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/scripts/markerclusterer.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngmap/testapp/scripts/markerclusterer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/view/deliveries.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/view/deliveries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/view/travels.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/view/travels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/view/up-account.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/view/up-account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/config.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/css/app.css" afterPath="$PROJECT_DIR$/platforms/ios/www/app/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/config-controller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/config-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/dMan-controller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/dMan-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/map-controller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/sign-controller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/controllers/sign-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/modules.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/modules.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/app/js/services.js" afterPath="$PROJECT_DIR$/platforms/ios/www/app/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-animate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.min.js.map" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/angular-aria.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-aria/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.min.js.map" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/angular-messages.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-messages/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/angular-route.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/materialize/dist/js/materialize.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/materialize/dist/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/.bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/.travis.yml" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/README.md" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/bower.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/controllers/map-controller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/bicycling-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/bicycling-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/custom-control.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/custom-control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/custom-marker.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/custom-marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/drawing-manager.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/drawing-manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/fusion-tables-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/fusion-tables-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/heatmap-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/heatmap-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/info-window.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/info-window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/kml-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/kml-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map-data.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map-lazy-load.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map-lazy-load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/marker.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/overlay-map-type.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/overlay-map-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/places-auto-complete.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/places-auto-complete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/shape.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/shape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/street-view-panorama.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/street-view-panorama.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/traffic-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/traffic-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/transit-layer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/directives/transit-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/filters/jsonize.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/filters/jsonize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/gulpfile.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/package.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/package.json" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/attr2-map-options.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/attr2-map-options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/ng-map-pool.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/ng-map-pool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/ng-map.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/services/ng-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/spec/lib/markerclusterer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/spec/lib/markerclusterer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/spec/services/attr2_options_spec.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/spec/services/attr2_options_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/custom-marker-2.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/custom-marker-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/directions.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/map_with_current_position.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/map_with_current_position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker-clusterer.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker-clusterer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker-remove.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker-remove.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker.html" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/script-tags-for-development.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/script-tags-for-development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/scripts/markerclusterer.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngmap/testapp/scripts/markerclusterer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/view/deliveries.html" afterPath="$PROJECT_DIR$/platforms/ios/www/view/deliveries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/view/travels.html" afterPath="$PROJECT_DIR$/platforms/ios/www/view/travels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/view/up-account.html" afterPath="$PROJECT_DIR$/platforms/ios/www/view/up-account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/config.js" afterPath="$PROJECT_DIR$/www/app/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/css/app.css" afterPath="$PROJECT_DIR$/www/app/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/controllers/config-controller.js" afterPath="$PROJECT_DIR$/www/app/js/controllers/config-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js" afterPath="$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/controllers/map-controller.js" afterPath="$PROJECT_DIR$/www/app/js/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/controllers/sign-controller.js" afterPath="$PROJECT_DIR$/www/app/js/controllers/sign-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/modules.js" afterPath="$PROJECT_DIR$/www/app/js/modules.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/js/services.js" afterPath="$PROJECT_DIR$/www/app/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-aria/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.js" afterPath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-aria/angular-aria.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-aria/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-aria/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-aria/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-messages/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/www/lib/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-route/angular-route.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular-route/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/materialize/dist/js/materialize.js" afterPath="$PROJECT_DIR$/www/lib/materialize/dist/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ngmap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/.travis.yml" afterPath="$PROJECT_DIR$/www/lib/ngmap/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/README.md" afterPath="$PROJECT_DIR$/www/lib/ngmap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/bower.json" afterPath="$PROJECT_DIR$/www/lib/ngmap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/Attr2MapOptions.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/Attr2MapOptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/GeoCoder.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/GeoCoder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NavigatorGeolocation.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NavigatorGeolocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NgMap.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NgMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NgMapPool.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/NgMapPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/StreetView.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/StreetView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/bicycling-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/bicycling-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/custom-control.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/custom-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/directions.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/drawing-manager.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/drawing-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/dynamic-maps-engine-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/dynamic-maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/fusion-tables-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/fusion-tables-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/heatmap-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/heatmap-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/index.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/info-window.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/info-window.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/kml-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/kml-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-data.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-lazy-load.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-lazy-load.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-type.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/maps-engine-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/marker.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/ngMap.ng-map.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/ngMap.ng-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/ngmap.custom-marker.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/ngmap.custom-marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/overlay-map-type.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/overlay-map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/places-auto-complete.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/places-auto-complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/shape.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/Attr2MapOptions.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/Attr2MapOptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/GeoCoder.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/GeoCoder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NavigatorGeolocation.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NavigatorGeolocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NgMap.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NgMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NgMapPool.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/NgMapPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/StreetView.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/StreetView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/bicycling-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/bicycling-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/custom-control.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/custom-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/directions.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/drawing-manager.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/drawing-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/dynamic-maps-engine-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/dynamic-maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/fusion-tables-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/fusion-tables-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/heatmap-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/heatmap-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/info-window.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/info-window.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/kml-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/kml-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-data.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-lazy-load.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-lazy-load.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-type.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/maps-engine-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/maps-engine-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/marker.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/ngMap.ng-map.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/ngMap.ng-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/ngmap.custom-marker.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/ngmap.custom-marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/overlay-map-type.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/overlay-map-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/places-auto-complete.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/places-auto-complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/shape.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/streetview-panorama.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/streetview-panorama.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/traffic-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/traffic-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/transit-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/source/transit-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/streetview-panorama.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/streetview-panorama.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/traffic-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/traffic-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/docs/transit-layer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/docs/transit-layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.debug.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.min.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/build/scripts/ng-map.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/controllers/map-controller.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/controllers/map-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/bicycling-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/bicycling-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/custom-control.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/custom-control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/custom-marker.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/custom-marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/drawing-manager.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/drawing-manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/fusion-tables-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/fusion-tables-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/heatmap-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/heatmap-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/info-window.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/info-window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/kml-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/kml-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/map-data.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/map-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/map-lazy-load.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/map-lazy-load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/map.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/marker.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/overlay-map-type.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/overlay-map-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/places-auto-complete.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/places-auto-complete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/shape.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/shape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/street-view-panorama.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/street-view-panorama.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/traffic-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/traffic-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/directives/transit-layer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/directives/transit-layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/filters/jsonize.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/filters/jsonize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/gulpfile.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/package.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/package.json" afterPath="$PROJECT_DIR$/www/lib/ngmap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/services/attr2-map-options.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/services/attr2-map-options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/services/ng-map-pool.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/services/ng-map-pool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/services/ng-map.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/services/ng-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/spec/lib/markerclusterer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/spec/lib/markerclusterer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/spec/services/attr2_options_spec.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/spec/services/attr2_options_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/custom-marker-2.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/custom-marker-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/directions.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/directions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/map_with_current_position.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/map_with_current_position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker-clusterer.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker-clusterer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker-remove.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker-remove.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker.html" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/marker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/script-tags-for-development.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/script-tags-for-development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ngmap/testapp/scripts/markerclusterer.js" afterPath="$PROJECT_DIR$/www/lib/ngmap/testapp/scripts/markerclusterer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/deliveries.html" afterPath="$PROJECT_DIR$/www/view/deliveries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/travels.html" afterPath="$PROJECT_DIR$/www/view/travels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/up-account.html" afterPath="$PROJECT_DIR$/www/view/up-account.html" />
     </list>
     <ignored path="mean-uber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -406,31 +57,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sign-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/sign-controller.js">
+      <file leaf-file-name="map-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/map-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="675">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deliveries.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/view/deliveries.html">
+      <file leaf-file-name="config-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/config-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addresses.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/view/addresses.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="-869">
+              <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -439,38 +80,30 @@
       <file leaf-file-name="travels.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/view/travels.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/map-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dMan-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <caret line="16" column="88" lean-forward="false" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/js/services.js">
+      <file leaf-file-name="sign-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/js/controllers/sign-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="66" column="77" lean-forward="false" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
+            <state relative-caret-position="315">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -507,33 +140,33 @@
         <option value="$PROJECT_DIR$/www/view/delete-account.html" />
         <option value="$PROJECT_DIR$/www/view/first-config.html" />
         <option value="$PROJECT_DIR$/www/view/settings.html" />
-        <option value="$PROJECT_DIR$/www/app/js/modules.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/plugins/android.json" />
         <option value="$PROJECT_DIR$/plugins/ios.json" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/package.json" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/platforms/platforms.json" />
-        <option value="$PROJECT_DIR$/www/app/css/app.css" />
         <option value="$PROJECT_DIR$/www/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/app/js/controllers/nav-controller.js" />
-        <option value="$PROJECT_DIR$/www/app/js/controllers/config-controller.js" />
         <option value="$PROJECT_DIR$/www/lib/materialize/dist/js/materialize.js" />
-        <option value="$PROJECT_DIR$/www/app/js/controllers/sign-controller.js" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/app/js/services.js" />
         <option value="$PROJECT_DIR$/www/view/register.html" />
         <option value="$PROJECT_DIR$/www/view/login.html" />
         <option value="$PROJECT_DIR$/www/view/up-account.html" />
-        <option value="$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js" />
-        <option value="$PROJECT_DIR$/www/app/js/controllers/map-controller.js" />
         <option value="$PROJECT_DIR$/www/view/map.html" />
         <option value="$PROJECT_DIR$/www/app/js/run.js" />
-        <option value="$PROJECT_DIR$/www/app/js/config.js" />
         <option value="$PROJECT_DIR$/www/view/addresses.html" />
+        <option value="$PROJECT_DIR$/www/app/js/config.js" />
+        <option value="$PROJECT_DIR$/www/app/js/controllers/sign-controller.js" />
         <option value="$PROJECT_DIR$/www/view/deliveries.html" />
+        <option value="$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js" />
+        <option value="$PROJECT_DIR$/www/app/js/services.js" />
+        <option value="$PROJECT_DIR$/www/app/js/controllers/map-controller.js" />
+        <option value="$PROJECT_DIR$/www/app/js/modules.js" />
+        <option value="$PROJECT_DIR$/www/app/css/app.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/view/travels.html" />
+        <option value="$PROJECT_DIR$/www/app/js/controllers/config-controller.js" />
       </list>
     </option>
   </component>
@@ -563,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -587,24 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Send_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Send_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,9 +261,58 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Send_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Send_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Send_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Send_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -661,13 +324,14 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www" />
     </key>
   </component>
   <component name="RunManager">
@@ -785,6 +449,21 @@
       <workItem from="1490505465135" duration="1303000" />
       <workItem from="1490533357929" duration="4597000" />
       <workItem from="1490538422883" duration="5851000" />
+      <workItem from="1490750144387" duration="1260000" />
+      <workItem from="1490922090881" duration="1342000" />
+      <workItem from="1490923592230" duration="2282000" />
+      <workItem from="1490991105793" duration="183000" />
+      <workItem from="1491138362521" duration="1154000" />
+      <workItem from="1491145549449" duration="2156000" />
+      <workItem from="1491259101367" duration="4476000" />
+      <workItem from="1491268527253" duration="3716000" />
+      <workItem from="1491339352262" duration="2461000" />
+      <workItem from="1491344302191" duration="5671000" />
+      <workItem from="1491431168093" duration="221000" />
+      <workItem from="1491432067281" duration="1961000" />
+      <workItem from="1491436945579" duration="489000" />
+      <workItem from="1491619106501" duration="9000" />
+      <workItem from="1491793289249" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de niveis de acesso com sucesso">
       <created>1489903361643</created>
@@ -804,28 +483,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77359000" />
+    <option name="totallyTimeSpent" value="105124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="697" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1366" height="697" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20446096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16033058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -872,29 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/config-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/view/deliveries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -906,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="12" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/view/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/view/delete-account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1084,26 +722,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/config-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/.htaccess" />
     <entry file="file://$PROJECT_DIR$/www/view/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,15 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,23 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="6" lean-forward="false" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="66" column="77" lean-forward="false" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,15 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/map-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,57 +787,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/sign-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="161" column="9" lean-forward="true" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-          <folding>
-            <marker date="1490550153000" expanded="true" signature="37:4665" ph="{...}" />
-            <marker date="1490550153000" expanded="true" signature="4540:4645" ph="{...}" />
-          </folding>
+        <state relative-caret-position="2340">
+          <caret line="156" column="37" lean-forward="false" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js">
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/view/addresses.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/dMan-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="69" lean-forward="false" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/view/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/view/deliveries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="88" lean-forward="false" selection-start-line="0" selection-start-column="88" selection-end-line="0" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="295" column="20" lean-forward="true" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="88" lean-forward="false" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/map-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/view/travels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/sign-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/view/deliveries.html">
+    <entry file="file://$PROJECT_DIR$/www/app/js/controllers/config-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="-869">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
           <folding />
         </state>
       </provider>

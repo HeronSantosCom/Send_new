@@ -11,6 +11,9 @@ app.controller('configCtrl', function ($rootScope, $scope, userAPI, addressesAPI
             $scope.addressEdit = address.data;
         });
     };
+
+    $rootScope.firstRate = 0;
+
     $scope.updateConfig = function (item, value) {
         $rootScope.user.config[item] = value;
         $scope.storage.setItem('logged', JSON.stringify($scope.user));

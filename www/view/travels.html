@@ -5,14 +5,17 @@
 		<a href="#!/" class="btn waves-effect waves-light full-width btn-padding">Contratar minha primeira entrega</a>
 	</div>
 </div>
-<div class="container full-width" ng-show="user.travels.length">
+<div class="container full-width" ng-show="user.travels.length" ng-controller="mapCtrl">
 	<ul id="addresses" class="collection">
 		<li class="collection-item avatar item-repeated" ng-repeat="travel in user.travels">
 			<i class="material-icons circle">location_on</i>
-			<span class="title">{{travel.title}}</span>
+			<span class="title">{{travel.title }}<span ng-if="travel.status==='open'" class="new badge">Aberto</span></span>
 			<p class="address-description"><strong>Origem: </strong> {{travel.origin}}</p>
 			<p class="address-description"><strong>Destino: </strong> {{travel.destination}}</p>
-			<span ng-if="delivery.status==='open'" class="new badge">Aberto</span>
+			<button ng-if="travel.status==='open'" class="btn waves-effect waves-light full-width" ng-click="cancelTravel(travel._id)">Cancelar</button>
+			<button ng-if="travel.status==='inProgress'" class="btn waves-effect waves-light full-width btn-padding btn-delete" ng-click="finishedTravel(travel._id)">Finalizar</button>
+			<jk-rating-stars rating="firstRate" ></jk-rating-stars>
+			<div style="width: 100px">{{firstRate}} Estrelas</div>
 		</li>
 	</ul>
 </div>

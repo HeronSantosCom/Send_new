@@ -8,10 +8,10 @@
     <ul id="addresses" class="collection">
         <li class="collection-item avatar item-repeated" ng-repeat="delivery in user.deliveries">
             <i class="material-icons circle">location_on</i>
-            <span class="title">{{delivery.title}}</span>
+            <span class="title" >{{delivery.title}}</span>
             <p class="address-description"><strong>Origem: </strong> {{delivery.origin}}</p>
             <p class="address-description"><strong>Destino: </strong> {{delivery.destination}}</p>
-            <button ng-if="delivery.status==='open'" class="btn waves-effect waves-light full-width" ng-click="putStatus()">Aceitar</button>
+            <button ng-if="delivery.status==='open'" class="btn waves-effect waves-light full-width" ng-click="putStatus(delivery._id)">Aceitar</button>
         </li>
     </ul>
 </div>
