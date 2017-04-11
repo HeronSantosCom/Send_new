@@ -1,10 +1,11 @@
 app.config(function ($routeProvider) {
 	$routeProvider.when('/', {
+		cache:false,
 		templateUrl: 'view/map.html',
 		controller: 'mapCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
-				if (!$rootScope.storage.getItem('logged')) $location.path('/login');
+                if (!$rootScope.storage.getItem('logged')) $location.path('/login');
 			}
 		}
 	});
@@ -27,6 +28,7 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/first-config', {
+		cache: false,
 		templateUrl: 'view/first-config.html',
 		controller: 'configCtrl',
 		resolve: {
@@ -36,7 +38,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/settings', {
-		templateUrl: 'view/settings.html',
+        cache: false,
+        templateUrl: 'view/settings.html',
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
@@ -45,7 +48,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/user', {
-		templateUrl: 'view/user.html',
+        cache: false,
+        templateUrl: 'view/user.html',
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
@@ -54,7 +58,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/addresses', {
-		templateUrl: 'view/addresses.html',
+        cache: false,
+        templateUrl: 'view/addresses.html',
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
@@ -63,7 +68,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/add-address', {
-		templateUrl: 'view/add-address.html',
+        cache: false,
+        templateUrl: 'view/add-address.html',
 		controller: 'configCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -73,7 +79,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/edit-address/:address_id', {
-		templateUrl: 'view/edit-address.html',
+        cache: false,
+        templateUrl: 'view/edit-address.html',
 		controller: 'configCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -83,7 +90,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/crop-profile-photo', {
-		templateUrl: 'view/crop-profile-photo.html',
+        cache: false,
+        templateUrl: 'view/crop-profile-photo.html',
 		controller: 'configCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -96,7 +104,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/delete-account', {
-		templateUrl: 'view/delete-account.html',
+        cache: false,
+        templateUrl: 'view/delete-account.html',
 		controller: 'configCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -106,7 +115,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/change-password', {
-		templateUrl: 'view/change-password.html',
+        cache: false,
+        templateUrl: 'view/change-password.html',
 		controller: 'configCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -116,7 +126,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/route', {
-		templateUrl: 'view/route.html',
+        cache: false,
+        templateUrl: 'view/route.html',
 		controller: 'mapCtrl',
 		returnEnabled: true,
 		resolve: {
@@ -126,7 +137,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/travels', {
-		templateUrl: 'view/travels.html',
+        cache: false,
+        templateUrl: 'view/travels.html',
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
@@ -135,7 +147,8 @@ app.config(function ($routeProvider) {
 		}
 	});
 	$routeProvider.when('/edit-address', {
-		templateUrl: 'view/edit-address.html',
+        cache: false,
+        templateUrl: 'view/edit-address.html',
 		controller: 'configCtrl',
 		resolve: {
 			session: function ($rootScope, $location) {
@@ -144,6 +157,7 @@ app.config(function ($routeProvider) {
 		}
 	});
     $routeProvider.when('/up-account',{
+        cache: false,
         templateUrl:'view/up-account.html',
         controller:'configCtrl',
         resolve:{
@@ -153,6 +167,7 @@ app.config(function ($routeProvider) {
         }
     });
     $routeProvider.when('/deliveries',{
+        cache: false,
         templateUrl:'view/deliveries.html',
         controller:'deliveryManCtrl',
         resolve:{

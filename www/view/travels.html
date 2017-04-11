@@ -14,8 +14,7 @@
 			<p class="address-description"><strong>Destino: </strong> {{travel.destination}}</p>
 			<button ng-if="travel.status==='open'" class="btn waves-effect waves-light full-width" ng-click="cancelTravel(travel._id)">Cancelar</button>
 			<button ng-if="travel.status==='inProgress'" class="btn waves-effect waves-light full-width btn-padding btn-delete" ng-click="finishedTravel(travel._id)">Finalizar</button>
-			<jk-rating-stars rating="firstRate" ></jk-rating-stars>
-			<div style="width: 100px">{{firstRate}} Estrelas</div>
+			<jk-rating-stars ng-if="travel.status==='finished'" rating="firstRate" ></jk-rating-stars>
 		</li>
 	</ul>
 </div>

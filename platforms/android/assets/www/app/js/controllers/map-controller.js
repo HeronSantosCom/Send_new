@@ -33,13 +33,19 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
         });
     };
     $scope.cancelTravel = function (id) {
-        mapsAPI.cancelTravel({id:id, status:'canceled'}).then(function success (travel) {
-            $rootScope.user.deliveries.status = delivery.data.status;
+        mapsAPI.cancelTravel({id:id, status:'canceled'}).then(function success () {
+            mapsAPI.getTravels($rootScope.user._id).then(function success (travels) {
+                $rootScope.user.travels = travels.data;
+                $scope.$apply;
+            })
         })
     };
     $scope.finishedTravel = function (id) {
-        mapsAPI.finishedTravel({id:id, status:'finished'}).then(function success (travel) {
-            $rootScope.user.deliveries.status = delivery.data.status;
+        mapsAPI.finishedTravel({id:id, status:'finished'}).then(function success () {
+            mapsAPI.getTravels($rootScope.user._id).then(function success (travels) {
+                $rootScope.user.travels = travels.data;
+                $scope.$apply;
+            })
         })
-    }
+    };
 });
