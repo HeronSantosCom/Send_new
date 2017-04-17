@@ -75,6 +75,9 @@ app.factory('mapsAPI', function ($http) {
     var _getDelivery = function (id) {
         return $http.get('http://localhost:3000/delivery/' + id);
     };
+    var _getDelivery_status = function (status) {
+        return $http.get('http://localhost:3000/deliverymodal/' + status);
+    };
     var _putDelivery = function (data) {
         return $http.put('http://localhost:3000/delivery/put-status', data);
     };
@@ -89,6 +92,7 @@ app.factory('mapsAPI', function ($http) {
         postTravel: _postTravel,
         getTravels: _getTravels,
         getDelivery: _getDelivery,
+        getDeliverystatus: _getDelivery_status,
         putDelivery: _putDelivery,
         cancelTravel: _cancelTravel,
         finishedTravel: _finishedTravel

@@ -17,6 +17,12 @@ app.controller('signCtrl', function ($rootScope, $scope, userAPI, $location, add
                         if(user.data.deliveryman===true){
                             $scope.storage.setItem('deliveryman', JSON.stringify(user.data));
                             mapsAPI.getDelivery(user.data._id).then(function success (deliveries) {
+                                mapsAPI.getDeliverystatus('open').then(function suceess (delivery) {
+                                    if (delivery.data !== null){
+                                        $rootScope.deliveryModal = delivery.data;
+                                        $('#travel-modal').modal('open');
+                                    }
+                                });
                                 $rootScope.user.deliveries = deliveries.data;
                             })
                         }

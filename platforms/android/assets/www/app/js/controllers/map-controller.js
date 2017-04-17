@@ -6,6 +6,7 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
     $('#origin-modal').modal();
     $('#destination-modal').modal();
     $('#confirm-modal').modal();
+    $('#travel-modal').modal();
     $cordovaGeolocation.getCurrentPosition({timeout: 10000, enableHighAccuracy: false}).then(function (position) {
         $rootScope.user.location = [position.coords.latitude, position.coords.longitude];
         mapsAPI.get({lat: position.coords.latitude, lng: position.coords.longitude}).then(function success (address) {
@@ -48,4 +49,5 @@ app.controller('mapCtrl', function ($rootScope, $scope, $location, mapsAPI, $cor
             })
         })
     };
+
 });

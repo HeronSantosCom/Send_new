@@ -12,6 +12,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.send"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.send"
         }
     },
     "dependent_plugins": {

@@ -31,6 +31,14 @@ module.exports = [
         "clobbers": [
             "navigator.geolocation"
         ]
+    },
+    {
+        "id": "cordova-plugin-dialogs.notification",
+        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -38,7 +46,8 @@ module.exports.metadata =
 {
     "cordova-plugin-geolocation": "2.4.1",
     "cordova-plugin-whitelist": "1.3.1",
-    "cordova-plugin-compat": "1.1.0"
+    "cordova-plugin-compat": "1.1.0",
+    "cordova-plugin-dialogs": "1.3.2"
 };
 // BOTTOM OF METADATA
 });

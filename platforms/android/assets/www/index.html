@@ -91,5 +91,18 @@
 			</div>
 		</div>
 	</div>
+	<div id="travel-modal" class="modal modal-fixed-footer" ng-controller="deliveryManCtrl">
+		<div class="modal-content">
+			<h5>Novo Pedido de Entrega</h5>
+			<i class="material-icons circle">location_on</i>
+			<span class="title" >{{deliveryModal.title}}</span>
+			<p class="address-description"><strong>Origem: </strong> {{deliveryModal.origin}}</p>
+			<p class="address-description"><strong>Destino: </strong> {{deliveryModal.destination}}</p>
+			<button ng-click="putStatus(deliveryModal._id)" class="modal-close btn waves-effect waves-light full-width">Aceitar</button>
+		</div>
+		<div class="modal-footer">
+			<button class="modal-close waves-effect btn-flat">Cancelar</button>
+		</div>
+	</div>
 </body>
 </html>
