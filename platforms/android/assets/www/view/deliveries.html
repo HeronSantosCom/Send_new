@@ -6,12 +6,19 @@
 </div>
 <div class="container full-width" ng-show="user.deliveries.length">
     <ul id="addresses" class="collection">
-        <li class="collection-item avatar item-repeated" ng-repeat="delivery in user.deliveries">
+        <li class="collection-item avatar item-repeated" ng-repeat="delivery in user.deliveries" ng-if="delivery.status !='canceled'">
             <i class="material-icons circle">location_on</i>
             <span class="title" >{{delivery.title}}</span>
             <p class="address-description"><strong>Origem: </strong> {{delivery.origin}}</p>
             <p class="address-description"><strong>Destino: </strong> {{delivery.destination}}</p>
-            <button ng-if="delivery.status==='open'" class="btn waves-effect waves-light full-width" ng-click="putStatus(delivery._id)">Aceitar</button>
+            <span ng-if="delivery.status !='open'" class="title"><p>Status:
+              <span ng-if="delivery.status==='payment'" data-badge-caption="" class="new badge parple">Solicite seu pagamento.</span>
+      			  <span ng-if="delivery.status==='paymentProcessing'" data-badge-caption="" class="new badge green">Pagamento sendo processado.</span>
+      			  <span ng-if="delivery.status==='finished'" data-badge-caption="" class="new badge red">Finalizada</span></p>
+      		</span>
+          <br>
+          <button ng-if="delivery.status==='open'" class="btn waves-effect waves-light full-width" ng-click="putStatus(delivery._id,'inProgress')">Aceitar</button>
+          <button ng-if="delivery.status==='payment'" class="btn waves-effect waves-light full-width" ng-click="putStatus(delivery._id,'getPayment')">Solicitar Pagmento</button>
         </li>
     </ul>
 </div>

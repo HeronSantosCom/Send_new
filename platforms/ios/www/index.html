@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="lib/lightbox2/dist/js/lightbox.min.js"></script>
 	<script type="text/javascript" src="lib/ngCroppie/minified/ng-croppie.min.js"></script>
 	<script type="text/javascript" src="lib/materialize/dist/js/materialize.min.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDoVxZG9TX_LTYFgfYB6OVTlpKsUgLMIZY&libraries=places"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBpKTPJaV8BP7CYYgsKeYOp5-C6wl2H-AM&libraries=places"></script>
 	<script type="text/javascript" src="app/js/modules.js"></script>
 	<script type="text/javascript" src="app/js/run.js"></script>
 	<script type="text/javascript" src="app/js/controllers/sign-controller.js"></script>
@@ -30,11 +30,15 @@
 	<script type="text/javascript" src="app/js/controllers/map-controller.js"></script>
 	<script type="text/javascript" src="app/js/controllers/nav-controller.js"></script>
 	<script type="text/javascript" src="app/js/controllers/dMan-controller.js"></script>
+	<script type="text/javascript" src="app/js/controllers/pay-controller.js"></script>
 	<script type="text/javascript" src="app/js/services.js"></script>
 	<script type="text/javascript" src="app/js/config.js"></script>
 	<script type="text/javascript" src="app/js/interceptors.js"></script>
 	<script src="lib/angular/angular.js"></script>
 	<script type="text/javascript" src="lib/angular-jk-rating-stars/dist/jk-rating-stars.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.js"></script>
+	<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+	</script>
 	<script>
 		$(document).ready(function () {
 			$('[data-activates=side-menu]').sideNav({draggable: true, closeOnClick: true});
@@ -59,6 +63,7 @@
 		<li ng-class="{'active': route.current.templateUrl === 'view/travels.html'}"><a href="#!/travels" class="waves-effect"><i class="material-icons">send</i> Meus Pedidos</a></li>
 		<li ng-if="storage.getItem('deliveryman')" ng-class="{'active': route.current.templateUrl === 'view/deliveries.html'}"><a href="#!/deliveries" class="waves-effect"><i class="material-icons">local_shippings</i> Minhas Entregas</a></li>
 		<li ng-class="{'active': route.current.templateUrl === 'view/settings.html'}"><a href="#!/settings" class="waves-effect"><i class="material-icons">settings</i> Configurações</a></li>
+		<li ng-class="{'active': route.current.templateUrl === 'view/pay.html'}"><a href="#!/pay" class="waves-effect"><i class="material-icons">attach_money</i> Pagamentos</a></li>
 		<li><a href="" ng-click="logout()" class="waves-effect"><i class="material-icons">exit_to_app</i> Sair</a></li>
 	</ul>
 	<nav ng-show="storage.getItem('logged')" ng-cloak ng-controller="navCtrl">
@@ -98,7 +103,7 @@
 			<span class="title" >{{deliveryModal.title}}</span>
 			<p class="address-description"><strong>Origem: </strong> {{deliveryModal.origin}}</p>
 			<p class="address-description"><strong>Destino: </strong> {{deliveryModal.destination}}</p>
-			<button ng-click="putStatus(deliveryModal._id)" class="modal-close btn waves-effect waves-light full-width">Aceitar</button>
+			<button ng-click="putStatus(deliveryModal._id,'inProgress')" class="modal-close btn waves-effect waves-light full-width">Aceitar</button>
 		</div>
 		<div class="modal-footer">
 			<button class="modal-close waves-effect btn-flat">Cancelar</button>

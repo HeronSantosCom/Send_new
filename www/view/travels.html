@@ -9,15 +9,22 @@
 	<ul id="addresses" class="collection">
 		<li class="collection-item avatar item-repeated" ng-repeat="travel in user.travels">
 			<i class="material-icons circle">location_on</i>
-			<span class="title">{{travel.title }}<span ng-if="travel.status==='open'" class="new badge">Aberto</span></span>
+			<span class="title">{{travel.title }}</span>
 			<p class="address-description"><strong>Origem: </strong> {{travel.origin}}</p>
 			<p class="address-description"><strong>Destino: </strong> {{travel.destination}}</p>
 			<button ng-if="travel.status==='open'" class="btn waves-effect waves-light full-width" ng-click="cancelTravel(travel._id)">Cancelar</button>
-			<button ng-if="travel.status==='inProgress'" class="btn waves-effect waves-light full-width btn-padding btn-delete" ng-click="finishedTravel(travel._id)">Finalizar</button>
-			<jk-rating-stars ng-if="travel.status==='finished'" rating="firstRate" ></jk-rating-stars>
+			<button ng-if="travel.status==='inProgress'" class="btn waves-effect waves-light full-width btn-padding btn-delete" ng-click="statusTravel(travel._id,'payment')">Item Entregue</button>
+			<button ng-if="travel.status==='getPayment'" class="btn waves-effect waves-light full-width btn-padding btn-delete" ng-click="statusTravel(travel._id,'paymentProcessing')">Pagar</button>
+			<span ng-if="travel.status !='open'" class="title"><p>Status:
+			<span ng-if="travel.status==='paymentProcessing'" data-badge-caption="" class="new badge green">Pagamento sendo processado.</span>
+			<span ng-if="travel.status==='payment'" data-badge-caption="" class="new badge purple">Item entregue.</span>
+			<span ng-if="travel.status==='canceled'" data-badge-caption="" class="new badge">Cancelada</span>
+			<span ng-if="travel.status==='finished'" data-badge-caption="" class="new badge red">Finalizada</span></p><br>
+		</span>
+			<jk-rating-stars ng-if="travel.status==='paymentProcessing'" max-rating="5" rating="travel.stars" ng-click="putStars(travel.stars,travel._id)"></jk-rating-stars>
 		</li>
 	</ul>
 </div>
-<div class="fixed-action-btn">
+<div class="fixed-action-btn" ng-controller="mapCtrl">
 	<a href="#!/" class="btn btn-floating btn-large waves-effect"><i class="material-icons">add</i></a>
 </div>

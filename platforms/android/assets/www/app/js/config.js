@@ -125,10 +125,10 @@ app.config(function ($routeProvider) {
 			}
 		}
 	});
-	$routeProvider.when('/route', {
+	$routeProvider.when('/pay', {
         cache: false,
-        templateUrl: 'view/route.html',
-		controller: 'mapCtrl',
+        templateUrl: 'view/pay.html',
+		controller: 'payCtrl',
 		returnEnabled: true,
 		resolve: {
 			session: function ($rootScope, $location) {

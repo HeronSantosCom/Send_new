@@ -12,7 +12,7 @@
 	<marker position="{{user.location}}"></marker>
 </ng-map>
 <div class="fixed-action-btn" style="bottom: 93px;">
-	<button ng-if="travelForm.$valid" class="btn-floating btn-large waves-effect btn-confirm" ng-click="openModal('#confirm-modal')"><i class="material-icons">done</i></button>
+	<button ng-if="travelForm.$valid" class="btn-floating btn-large waves-effect btn-confirm" ng-click="distanceMatrix(origin,destination)"><i class="material-icons">done</i></button>
 </div>
 <div class="fixed-action-btn">
 	<button class="btn btn-floating btn-large waves-effect" ng-click="updateLocation()"><i class="material-icons">gps_fixed</i></button>
@@ -83,6 +83,7 @@
 		<p><strong>Titulo</strong>: {{title}}</p>
 		<p><strong>Ponto de Retirada</strong>: {{origin}}</p>
 		<p><strong>Destino da entrega</strong>: {{destination}}</p>
+		<p><strong>Distancia</strong>: {{distance}}</p>
 		<button ng-click="confirmTravel(title,origin, destination)" class="modal-close btn waves-effect waves-light full-width">Confirmar</button>
 	</div>
 	<div class="modal-footer">

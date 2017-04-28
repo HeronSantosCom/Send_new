@@ -84,8 +84,11 @@ app.factory('mapsAPI', function ($http) {
     var _cancelTravel = function (data) {
         return $http.put('http://localhost:3000/cancel-travel', data);
     };
-    var _finishedTravel = function (data) {
-        return $http.put('http://localhost:3000/finished-travel', data);
+    var _statusTravel = function (data) {
+        return $http.put('http://localhost:3000/status-travel', data);
+    };
+    var _putStars = function (data) {
+        return $http.put('http://localhost:3000/travels/put-stars', data);
     };
     return {
         get: _get,
@@ -95,7 +98,8 @@ app.factory('mapsAPI', function ($http) {
         getDeliverystatus: _getDelivery_status,
         putDelivery: _putDelivery,
         cancelTravel: _cancelTravel,
-        finishedTravel: _finishedTravel
+        statusTravel: _statusTravel,
+        putStars: _putStars
     };
 });
 app.factory('deliverySearch', function ($http) {
